@@ -21,7 +21,7 @@ public class WebController {
     @PostMapping("/getall")
     public ResponseEntity<List<CreditCard>> getAll(@RequestParam(required = false, defaultValue = "1") Integer page,
                                              @RequestParam(required = false, defaultValue = "5") Integer row) {
-        ArrayList<CreditCard> creditCards = (ArrayList<CreditCard>) restTemplate.getForObject("http://localhost:8081/getall", List.class)
+        ArrayList<CreditCard> creditCards = (ArrayList<CreditCard>) restTemplate.getForObject("http://cc-repo/getall", List.class)
                 .stream()
                 .skip(row * (page - 1))
                 .limit(row)
