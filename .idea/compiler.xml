@@ -9,9 +9,11 @@
         <module name="cc-controller" />
         <module name="service-discovery" />
         <module name="cc-repo" />
+        <module name="cc-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cc-config-server" target="11" />
       <module name="cc-controller" target="11" />
       <module name="cc-repo" target="11" />
       <module name="service-discovery" target="11" />
@@ -19,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cc-config-server" options="-parameters" />
       <module name="cc-controller" options="-parameters" />
       <module name="cc-repo" options="-parameters" />
       <module name="service-discovery" options="-parameters" />

@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/cc-repo/pom.xml" />
         <option value="$PROJECT_DIR$/cc-controller/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/cc-config-server/pom.xml" />
       </list>
     </option>
   </component>

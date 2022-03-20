@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cc-config-server/cc-config-server.iml" filepath="$PROJECT_DIR$/cc-config-server/cc-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cc-controller/cc-controller.iml" filepath="$PROJECT_DIR$/cc-controller/cc-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/cc-repo/cc-repo.iml" filepath="$PROJECT_DIR$/cc-repo/cc-repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserviceDemo.iml" filepath="$PROJECT_DIR$/microserviceDemo.iml" />
